@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gokulnath | Data Analyst Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#0f172a;
+    color:#f1f5f9;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 80px;
+    background:#0f172a;
+    position:fixed;
+    width:100%;
+}
+
+nav a{
+    color:#f1f5f9;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+section{
+    padding:100px 80px;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.highlight{
+    color:#38bdf8;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:#0f172a;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.btn:hover{
+    background:#0ea5e9;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#1e293b;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div><strong>Gokulnath</strong></div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Hi, I'm <span class="highlight">Gokulnath</span></h1>
+    <p>Aspiring Data Analyst | SQL | Power BI | Excel</p>
+    <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <br>
+    <p>
+        I transform raw data into meaningful business insights using SQL and Power BI.
+        I have completed multiple analytics projects including Job Market Analysis,
+        UPI Transaction Analysis, and Customer Churn Analysis.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <br><br>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Job Market Skill Demand Analysis</h3>
+            <p>Analyzed job trends, salary patterns and in-demand skills using SQL and Power BI.</p>
+        </div>
+
+        <div class="card">
+            <h3>UPI Transaction Analysis</h3>
+            <p>Explored transaction trends and customer behavior patterns.</p>
+        </div>
+
+        <div class="card">
+            <h3>Customer Churn Analysis</h3>
+            <p>Identified churn drivers and built dashboard for retention insights.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <br>
+    <p>Email: yourmail@gmail.com</p>
+    <p>LinkedIn: yourlink</p>
+    <p>GitHub: yourgithublink</p>
+</section>
+
+<footer>
+    © 2026 Gokulnath | Data Analyst Portfolio
+</footer>
+
+</body>
+</html>
+
